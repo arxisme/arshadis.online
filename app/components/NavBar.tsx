@@ -15,8 +15,9 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div
-      className={`fixed top-0 left-0 w-full flex justify-between p-2 m-1 rounded-lg text-accent text-xs 2xl:text-base ${michroma.className} z-50`}
+      className={`fixed top-0 left-0 w-full flex justify-center p-2 m-1 rounded-lg text-accent text-xs 2xl:text-base ${michroma.className} z-50`}
     >
+      <div className="w-full max-w-screen-2xl flex justify-between">
       <div className="text-base flex flex-col max-lg:justify-around">
         <Logo />
       </div>
@@ -52,7 +53,8 @@ const NavBar = () => {
           <div className="absolute inset-0 bg-accent blur-2xl opacity-0 group-hover:opacity-100 transition duration-700 ease-in-out"></div>
         </div>
       </div>
-    </div>
+      </div>
+      </div>
   );
 };
 
