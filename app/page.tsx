@@ -5,6 +5,7 @@ import LottieAnimation from "@/app/components/LottieAnimation";
 import NavBar from "@/app/components/NavBar";
 import LottieEmail from "./components/LottieEmail";
 import LottieAbout from "./components/LottieAbout";
+import ResumeDownloadButton from "./components/ResumeDownloadButton";
 
 const michroma = Michroma({
   weight: "400",
@@ -74,36 +75,53 @@ export default function Home() {
 
         <section id="about">
           <div className="flex max-md:flex-col items-center min-h-screen pt-7 align-middle justify-end h-full w-full">
-            <div className="w-full m-2 items-center justify-around">
+            <div className="w-full m-2 items-center  justify-around">
               <LottieAbout />
             </div>
-            <div className="bg-pink-0 w-full">
-              <h1
-                className={`max-md:text-xl underline text-4xl m-2 mx-4 max-md:mt-9 pb-3 text-primary ${michroma.className}`}
-              >
-                About me
-              </h1>
+            <div className="bg-pink-0 w-full  leading-5">
+              <div className="w-full flex items-center  align-middle max-md:mt-9 justify-between">
+                <h1
+                  className={`max-md:text-xl w-fit p-5 shadow-md shadow-primary text-4xl m-2 mx-4 text-primary ${michroma.className}`}
+                >
+                  About me
+                </h1>
+
+                <ResumeDownloadButton />
+              </div>
+
               <p
                 className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-9 text-accent ${michroma.className}`}
               >
-                I'm    a   software   engineer   who   loves   creating   and   designing   awesome    websites.   I'm   pretty   good   at{" "}
-                <span className="text-info">  solving problems</span>   and   making
-                  things   work   smoothly.
+                I'm a software engineer who loves creating and designing awesome
+                websites. I'm pretty good at{" "}
+                <span className="text-info"> solving problems</span> and making
+                things work smoothly.
               </p>
+              <div className="h-5"></div>
               <h1
                 className={`max-md:text-sm text-2xl m-2 mx-4 max-md:mt-9 pb-3 text-primary ${michroma.className}`}
               >
-                My Skills includes: 
+                My Skills includes:
               </h1>
-              
-                <p className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-9 text-accent ${michroma.className}`}>
-                <span className="text-primary">🅞 </span> Full-stack   development   using   <span className="text-info">  React</span>,{" "}
-                  <span className="text-info">  Nodejs</span>,   <span className="text-info">  Laravel</span>{" "},<span className="text-info">   Next js</span>{" "}
-                </p>
-                <p className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-9 text-accent ${michroma.className}`}><span className="text-primary">🅞 </span> Programming   languages :  <span className="text-info">  C++</span>,  {" "}
-                <span className="text-info">  Rust </span>,   <span className="text-info">  Java</span>{" "}</p>
-                
 
+              <p
+                className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-5 text-accent ${michroma.className}`}
+              >
+                <span className="text-primary">🅞 </span> Full-stack development
+                using <span className="text-info"> React</span>,{" "}
+                <span className="text-info"> Nodejs</span>,{" "}
+                <span className="text-info"> Laravel</span> ,
+                <span className="text-info"> Next js</span>{" "}
+              </p>
+              <div className=""></div>
+              <p
+                className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-9 text-accent ${michroma.className}`}
+              >
+                <span className="text-primary">🅞 </span> Programming languages :{" "}
+                <span className="text-info"> C++</span>,{" "}
+                <span className="text-info"> Rust </span>,{" "}
+                <span className="text-info"> Java</span>{" "}
+              </p>
             </div>
           </div>
         </section>
@@ -112,10 +130,11 @@ export default function Home() {
             <div className=" flex justify-center p-5 w-full">
               <div className="flex w-full max-w-md flex-col">
                 <h1
-                  className={`max-md:text-2xl text-4xl m-2 mb-14 text-primary ${michroma.className}`}
+                  className={`max-md:text-xl w-fit mb-7 p-5  mx-0 shadow-md shadow-primary text-4xl m-2 mx-4 max-md:mt-9  text-primary ${michroma.className}`}
                 >
                   Contact me
                 </h1>
+                <div className="h-5"></div>
                 <label className="input input-ghost  shadow-md shadow-primary input-bordered flex items-center mb-5 gap-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
