@@ -86,25 +86,24 @@ export default function Home() {
               <p
                 className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-9 text-accent ${michroma.className}`}
               >
-                I'm    a   software   engineer   who   loves   creating   and   designing   awesome
-                  websites.   I'm   pretty   good   at{" "}
+                I'm    a   software   engineer   who   loves   creating   and   designing   awesome    websites.   I'm   pretty   good   at{" "}
                 <span className="text-info">  solving problems</span>   and   making
                   things   work   smoothly.
               </p>
               <h1
-                className={`max-md:text- text-2xl m-2 mx-4 max-md:mt-9 pb-3 text-primary ${michroma.className}`}
+                className={`max-md:text-sm text-2xl m-2 mx-4 max-md:mt-9 pb-3 text-primary ${michroma.className}`}
               >
-                My Skills include: 
+                My Skills includes: 
               </h1>
-              <ol className={` list-disc ${michroma.className}`} >
-                <li className="text-accent whitespace-pre-wrap">
-                  Full-stack   development   using   <span className="text-info">  React</span>,{" "}
-                  <span className="text-info">  Nodejs</span>,   <span className="text-info">   Laravel</span>{" "}
-                </li>
-                <li className="text-accent whitespace-pre-wrap">Programming   languages :  <span className="text-info">  C++</span>,  {" "}
-                <span className="text-info">  Rust </span>,   <span className="text-info">  Java</span>{" "}</li>
+              
+                <p className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-9 text-accent ${michroma.className}`}>
+                <span className="text-primary">🅞 </span> Full-stack   development   using   <span className="text-info">  React</span>,{" "}
+                  <span className="text-info">  Nodejs</span>,   <span className="text-info">  Laravel</span>{" "},<span className="text-info">   Next js</span>{" "}
+                </p>
+                <p className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-9 text-accent ${michroma.className}`}><span className="text-primary">🅞 </span> Programming   languages :  <span className="text-info">  C++</span>,  {" "}
+                <span className="text-info">  Rust </span>,   <span className="text-info">  Java</span>{" "}</p>
                 
-              </ol>
+
             </div>
           </div>
         </section>
