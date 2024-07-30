@@ -1,6 +1,5 @@
 import React from 'react';
 import { Michroma } from 'next/font/google';
-import microsoftEntraId from 'next-auth/providers/microsoft-entra-id';
 
 const michroma = Michroma({
   weight: '400',
