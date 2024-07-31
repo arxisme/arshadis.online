@@ -130,7 +130,7 @@ export default function Home() {
             <div className=" flex justify-center p-5 w-full">
               <div className="flex w-full max-w-md flex-col">
                 <h1
-                  className={`max-md:text-xl w-fit mb-7 p-5  mx-0 shadow-md shadow-primary text-4xl m-2 rounded-b-md rounded max-md:mt-9  text-primary ${michroma.className}`}
+                  className={`max-md:text-xl w-fit mb-7 p-5  mx-0 shadow-md shadow-primary text-4xl m-2 rounded-b-xl  max-md:mt-9  text-primary ${michroma.className}`}
                 >
                   Contact me
                 </h1>
