@@ -81,7 +81,7 @@ export default function Home() {
             <div className="bg-pink-0 w-full  leading-5">
               <div className="w-full flex items-center  align-middle max-md:mt-9 justify-between">
                 <h1
-                  className={`max-md:text-xl w-fit p-5 shadow-md shadow-primary text-4xl m-2 mx-4 text-primary ${michroma.className}`}
+                  className={`max-md:text-xl w-fit p-5 shadow-md shadow-primary text-4xl m-2 mx-4 rounded-b-xl text-primary ${michroma.className}`}
                 >
                   About me
                 </h1>
@@ -101,7 +101,7 @@ export default function Home() {
               <h1
                 className={`max-md:text-sm text-2xl m-2 mx-4 max-md:mt-9 pb-3 text-primary ${michroma.className}`}
               >
-                My Skills includes:
+                My Skills include:
               </h1>
 
               <p
@@ -130,7 +130,7 @@ export default function Home() {
             <div className=" flex justify-center p-5 w-full">
               <div className="flex w-full max-w-md flex-col">
                 <h1
-                  className={`max-md:text-xl w-fit mb-7 p-5  mx-0 shadow-md shadow-primary text-4xl m-2 mx-4 max-md:mt-9  text-primary ${michroma.className}`}
+                  className={`max-md:text-xl w-fit mb-7 p-5  mx-0 shadow-md shadow-primary text-4xl m-2 rounded-b-md rounded max-md:mt-9  text-primary ${michroma.className}`}
                 >
                   Contact me
                 </h1>
