@@ -117,7 +117,7 @@ export default function Home() {
                 className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-5 text-accent ${michroma.className}`}
               >
                 <span className="text-primary">🅞 </span> Game development
-                using <span className="text-info"> Unity</span>,{" "}
+                using <span className="text-info"> Unity</span>{" "}
                 
                
               </p>
@@ -128,7 +128,7 @@ export default function Home() {
                 <span className="text-primary">🅞 </span> Programming languages :{" "}
                 <span className="text-info"> C++</span>,{" "}
                 <span className="text-info">Python</span>,{" "}
-                <span className="text-info"> C</span>{" "}
+                <span className="text-info"> C</span>,{" "}
                 <span className="text-info"> Golang</span>{" "}
               </p>
             </div>
