@@ -113,14 +113,23 @@ export default function Home() {
                 <span className="text-info"> Laravel</span> ,
                 <span className="text-info"> Next js</span>{" "}
               </p>
+              <p
+                className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-5 text-accent ${michroma.className}`}
+              >
+                <span className="text-primary">🅞 </span> Game development
+                using <span className="text-info"> Unity</span>,{" "}
+                
+               
+              </p>
               <div className=""></div>
               <p
                 className={`max-md:text-sm text-md m-2 mx-4 whitespace-pre-wrap max-md:mt-9 text-accent ${michroma.className}`}
               >
                 <span className="text-primary">🅞 </span> Programming languages :{" "}
                 <span className="text-info"> C++</span>,{" "}
-                <span className="text-info"> Rust </span>,{" "}
-                <span className="text-info"> Java</span>{" "}
+                <span className="text-info">Python</span>,{" "}
+                <span className="text-info"> C</span>{" "}
+                <span className="text-info"> Golang</span>{" "}
               </p>
             </div>
           </div>
